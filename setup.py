@@ -21,7 +21,7 @@ setup(
     author='Author Name',
     author_email='author_email@example.tld',
     url='https://github.com/gitHubUser/package_name',
-    download_url='https://github.com/gitHubUser/package_name/archive{}.tar.gz'.format(version),
+    download_url='https://github.com/gitHubUser/package_name/archive/{}.tar.gz'.format(version),
     keywords=['key1', 'key2', 'key3'],
     license='MIT',
     classifiers=[ # look here https://pypi.python.org/pypi?%3Aaction=list_classifiers
