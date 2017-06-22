@@ -1,13 +1,10 @@
-import os
 from setuptools import setup
 
-
-# Utility function to read the README file.
-# Used for the long_description.  It's nice, because now 1) we have a top level
-# README file and 2) it's easier to type in the README file than to put a raw
-# string in below ...
-def read(file_name):
-    return open(os.path.join(os.path.dirname(__file__), file_name)).read()
+try:
+    import pypandoc
+    description = pypandoc.convert(source='README.md', format='markdown_github', to='rst', outputfile='README.rst')
+except (IOError, ImportError):
+    description = open('README.md').read()
 
 
 version = '0.1'
@@ -17,7 +14,7 @@ setup(
     packages=['package_name'],
     version=version,
     description='small package description',
-    long_description=read('README.md'),
+    long_description=description,
     author='Author Name',
     author_email='author_email@example.tld',
     url='https://github.com/gitHubUser/package_name',
