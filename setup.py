@@ -10,15 +10,15 @@ except (IOError, ImportError):
 version = '0.1'
 
 setup(
-    name='package_name',
-    packages=['package_name'],
+    name='shuiyuan',
+    packages=['shuiyuan'],
     version=version,
     description='small package description',
     long_description=description,
-    author='Author Name',
-    author_email='author_email@example.tld',
-    url='https://github.com/gitHubUser/package_name',
-    download_url='https://github.com/gitHubUser/package_name/archive/{}.tar.gz'.format(version),
+    author='jason',
+    author_email='dengyongqing@aliyun.com',
+    url='https://github.com/dengyongqing/shuiyuan',
+    download_url='https://github.com/dengyongqing/shuiyuan/archive/{}.tar.gz'.format(version),
     keywords=['key1', 'key2', 'key3'],
     license='MIT',
     classifiers=[ # look here https://pypi.python.org/pypi?%3Aaction=list_classifiers

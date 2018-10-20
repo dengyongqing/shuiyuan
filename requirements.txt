@@ -1,3 +1,11 @@
 setuptools
 twine
 pypandoc
+tushare
+baostock
+python-binance
+yahoo-finance
+pytdx
+quandl
+knoema
+wbdata
