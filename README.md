@@ -1,5 +1,5 @@
 
-ShuiYuan
+sourcewater
 
 水源聚合了多个开放finance数据源，yahoo_finance（雅虎财经），wbdata（世界银行），knoema，pytdx（通达信），tushare，quandl，python_binance（币安）等（数据源在增加中...）
 
